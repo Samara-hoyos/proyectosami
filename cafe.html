@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="navbar  navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container ">
+      <a class="nav-brand">
+          <img src="img/fondoprincipal.jpg" alt="logo" width="50" height="30" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false" 
+                aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-start">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-e">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historia.html">historia</a>
+                </li>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    productos
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="restaurante.html">restaurante</a></li>
+                    <li><a class="dropdown-item" href="cafe.html">cafe</a></li>
+                    <li><a class="dropdown-item" href="pasteleria.html">pasteleria</a></li>
+                  </ul>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <h2 class=" text-center m-5 p-5">cafe</h2>
+    <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/affogato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">affogato</h5>
+                  <p class="card-text">expresso y helado</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                    comprar
+                  </button>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="img/aguapanela.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">aguapanela</h5>
+                  <p class="card-text">Agua con panela</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                    comprar
+                  </button>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="img/aguapanelaconqueso.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">aguapanela con queso</h5>
+                  <p class="card-text">aguapanela con queso</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                    comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="card">
+                <img src="img/aromaticafrutas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">aromatica de frutas</h5>
+                  <p class="card-text">aromatica con el sabor de la fruta y fruta</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/aromaticafrutosrojos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">aromatica de frutos rojos</h5>
+                  <p class="card-text">aromatoca con sabor de frutos rojos y frutas rojos</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/cafeamericano.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cafe americano</h5>
+                  <p class="card-text">expresso con agua</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/cafebombon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">cafe bombon</h5>
+                  <p class="card-text">expresso con leche condensada</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/cafecampecino.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">cafe campecino</h5>
+                  <p class="card-text">cafe de la abuela con aguapanela</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/cafeconleche.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">cafe con leche</h5>
+                  <p class="card-text">cafe con leche</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/caferoca.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">cafe roca</h5>
+                  <p class="card-text">cafe con hielo</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/caspiroleta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">caspiroleta</h5>
+                  <p class="card-text">leche huevo y tostada</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/carajillo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">carajillo</h5>
+                  <p class="card-text">expresso y licor</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/chocolatecaliente.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">chocolate caliente</h5>
+                  <p class="card-text">chocolate</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/chocolateconqueso.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">chocolate con queso</h5>
+                  <p class="card-text">chocolate con queso</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/expreso.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">expreso</h5>
+                  <p class="card-text">expresso</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/frapuchino.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">frapuchino de oreo</h5>
+                  <p class="card-text">mezcla de chocolate, oreo, cafe, hielo y crema chantilly con galleta oreo</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/frapuchino chocolate.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">frapuchino de chocolate</h5>
+                  <p class="card-text">mezcla de chocolate, cafe, hielo y crema chantilly con chocolatina</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/frapuchinobaileys.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">frapuchino de baileys</h5>
+                  <p class="card-text">mezcla de baileys, cafe, hielo y crema chantilly</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/frapuchinocafe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">frapuchino de cafe</h5>
+                  <p class="card-text">mezcla de chocolate, cafe, hielo y crema chantilly</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/frapuchinocaramelo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">frapuchino de caramelo</h5>
+                  <p class="card-text">mezcla de cafe, caramelo, hielo y crema chantilly con caramelo</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/jugosagua.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">jugos en agua</h5>
+                  <p class="card-text">jugos naturales en agua</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/jugosleche.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">jugos en leche</h5>
+                  <p class="card-text">jugos naturales en leche</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/caspiroleta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">caspiroleta</h5>
+                  <p class="card-text">leche huevo y tostada</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/lattefrio.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">latte frio</h5>
+                <p class="card-text">poco expreso mucha leche y poca espuma</p>
+                <a href="#" class="btn btn-primary">comprar</a>
+              </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/grande.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">migao grande</h5>
+                  <p class="card-text">chocolate con parva, los dos quesos y 6 galletas</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/migaomediano.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">migao mediano</h5>
+                  <p class="card-text">chocolate 5 tipos parvas, los dos quesos y 4 galletas</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+            </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+                <img src="img/migaopequeño.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">migaopequeño</h5>
+                  <p class="card-text">chocolate 3 tipos parvas, un quesos y 2 galletas</p>
+                  <a href="#" class="btn btn-primary">comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="card">
+                  <img src="img/limonadadecafe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">limonada de cafe</h5>
+                    <p class="card-text">mezcla de expreso con limon</p>
+                    a href="#" class="btn btn-primary">comprar</a>
+                  </div>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/malteada.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">malteada de chocolate</h5>
+                      <p class="card-text">malteada con dedos de chocolatina</p>
+                      <a href="#" class="btn btn-primary">comprar</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/malteadabaileys.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">malteada de baileys</h5>
+                      <p class="card-text">malteada con licor baileys</p>
+                      <a href="#" class="btn btn-primary">comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                  <div class="card">
+                      <img src="img/malteadaoreo.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">malteada de oreo</h5>
+                        <p class="card-text">malteada con galleta oreo</p>
+                        <a href="#" class="btn btn-primary">comprar</a>
+                      </div>
+                  </div> 
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                  <div class="card">
+                      <img src="img/micheladas.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">micheladas</h5>
+                        <p class="card-text">bebida mezclada con limon y border de sal</p>
+                        <a href="#" class="btn btn-primary">comprar</a>
+                      </div>
+                    </div>
+                </div>
+              <div class="row align-items-center">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                  <div class="card">
+                      <img src="img/milofrio.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">milo frio</h5>
+                        <p class="card-text">milo en leche con hielo</p>
+                        <a href="#" class="btn btn-primary">comprar</a>
+                      </div>
+                  </div>
+                </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                      <div class="card">
+                          <img src="img/milocaliente.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">milo caliente</h5>
+                            <p class="card-text">milo en leche caliente</p>
+                            <a href="#" class="btn btn-primary">comprar</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                      <div class="card">
+                          <img src="img/mocchiato.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">mocchiato</h5>
+                            <p class="card-text">mezcla de cafe con chocolate</p>
+                            <a href="#" class="btn btn-primary">comprar</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="card">
+                          <img src="img/techai.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">te chai</h5>
+                            <p class="card-text">te negro con mezcla de leche y </p>
+                            <a href="#" class="btn btn-primary">comprar</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div> 
+                </div> 
+                <div class="modal fade " id="Modal" aria-labelledby="ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="ModalLabel">agregar a carrito</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="Check1">
+                          <label class="form-check-label" for="Check1">adicional de cafe</label>
+                        </div>
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="Check1">
+                        <label class="form-check-label" for="Check1">adicional de helado</label>
+                      </div>
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">agregar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        
+    
+    <footer class="bg-light text-dark pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-12 col-md-4 ">
+            <h5 class="text-uppercase ">nosotros</h5>
+            <hr class="mb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eveniet consequuntur? Perferendis aperiam vel accusantium, adipisci libero eos quod nostrum, saepe, quo veniam possimus quaerat odio consequatur soluta non deserunt.
+            </p>
+          </div>
+          <div class="col-12 col-md-3 col-lg-4">
+            <h5 class="text-uppercase ">contactenos</h5>
+            <hr class="mb-4">
+            <p>
+              <i class="bi bi-whatsapp"></i>
+              <a href="#" class="text-dark">whatsapp</a>
+            </p>
+            <p>
+              <i class="bi bi-facebook"></i>
+              <a href="#" class="text-dark">facebook</a>
+            </p>
+            <p>
+              <i class="bi bi-instagram"></i>
+              <a href="#" class="text-dark">instagram</a>
+            </p>
+          </div>
+          <div class="col-12 col-md-3 col-lg-4">
+            <hr class="mb-4 ">
+            <p>
+              Politica de Tratamiento de datos Personal
+            </p>
+            <p>
+              Terminos y condiciones
+            </p>
+            <p>
+              <p>derechos reservados &reg; ADSO 2925889</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
